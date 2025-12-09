@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { JobSearchBar } from "@/components/JobSearchBar";
 import { PopularSearches } from "@/components/PopularSearches";
 import { Partners } from "@/components/Partners";
+import { CategorySection } from "@/components/CategorySection";
 
 export default function Home() {
   return (
@@ -20,6 +21,12 @@ export default function Home() {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <Partners />
+        </div>
+      </div>
+
+      <div className="container mx-auto px-6">
+        <div className="max-w-7xl mx-auto">
+          <CategorySection />
         </div>
       </div>
     </div>
